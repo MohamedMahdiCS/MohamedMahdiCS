@@ -1,24 +1,26 @@
-# Mohamed Mahdi — AI Engineer
+### Hi, I'm Mohamed
 
-Building toward reliable AI systems beyond the demo.
+I'm an AI engineer. I build AI agents that are measured, controlled and safe to put in front of
+real decisions: durable execution, tool permissions, human approval, traces, and evaluations that
+tell you whether the system actually works.
 
-**AI Engineering · AI Agents · LLM Systems · Evaluation · Observability · Backend Systems**
+**Python · FastAPI · PostgreSQL · LLM agents · evaluation · React + TypeScript**
 
-I’m focused on the engineering that makes AI systems dependable: tool use, runtime permissions, meaningful evaluations, structured traces, and robust backend infrastructure.
+---
 
-## Flagship project
+#### [AgentOps Control Plane](https://github.com/MohamedMahdiCS/agentops-control-plane)
 
-### [AgentOps Control Plane](https://github.com/MohamedMahdiCS/agentops-control-plane)
+A platform for running AI agents with production controls. Runs survive worker crashes
+(PostgreSQL queue with leases and fencing), every tool call passes a policy gateway, sensitive
+actions wait for an operator's approval, and each run leaves a trace you can inspect.
+FastAPI, PostgreSQL, React, 108 tests.
 
-An AI agent operations platform in development, focused on evaluating, observing, and operating agents reliably.
+#### Coming soon: an open-source AI claims adjuster
 
-The roadmap covers agent registration, model and tool tracing, evaluation harnesses, fault injection, runtime policies, and human approval for sensitive actions.
+An agent that reads messy insurance claim documents (phone photos, scans, English, Malay and
+Chinese), catches forged receipts, ignores instructions hidden in documents, and runs fully on a
+laptop. Plus the public benchmark I built to measure it.
 
-**Current stage:** initial repository and development environment setup.
+---
 
-## Engineering focus
-
-- **Agents and LLM systems:** tool use, orchestration, and controlled execution.
-- **Evaluation and reliability:** regression detection, failure analysis, and repeatable benchmarks.
-- **Observability:** traces, metrics, and visibility into model and tool behavior.
-- **Backend systems:** clear APIs, data modeling, testing, and maintainable infrastructure.
+Open to AI engineering roles.
