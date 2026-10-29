@@ -10,10 +10,16 @@ tell you whether the system actually works.
 
 #### [AgentOps Control Plane](https://github.com/MohamedMahdiCS/agentops-control-plane)
 
-A platform for running AI agents with production controls. Runs survive worker crashes
-(PostgreSQL queue with leases and fencing), every tool call passes a policy gateway, sensitive
-actions wait for an operator's approval, and each run leaves a trace you can inspect.
-FastAPI, PostgreSQL, React, 108 tests.
+A control plane for running AI agents with production controls, and for proving how they behave.
+
+- **Durable runs** that survive worker crashes (PostgreSQL queue with leases and fencing)
+- **Policy gateway** on every tool call, with human approval for sensitive actions
+- **Deterministic evaluations**: 0–100 scores where every check cites recorded evidence, and a
+  safety gate that a high score can't override
+- **Reproducible benchmarks**: scenario suites with replay, regression detection and release
+  gates that run in CI
+
+FastAPI · PostgreSQL · React · Three.js · Docker · GitHub Actions · 230 tests
 
 #### Coming soon: an open-source AI claims adjuster
 
