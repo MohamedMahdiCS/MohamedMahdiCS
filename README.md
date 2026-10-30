@@ -10,8 +10,8 @@ I'm an AI engineer in Kuala Lumpur. I build AI systems that are reliable, measur
 put in front of real decisions: policy enforced in the backend rather than the prompt, evaluations
 tied to recorded evidence, and systems that fail safely.
 
-Previously I spent two years building LLM-powered features for a school wellbeing platform, used
-by 3 schools, that cut report preparation from 10+ hours to under an hour. I'm now doing a Master's in
+Before that I spent two years building LLM-powered features for a school wellbeing platform used by
+3 schools, including automated reports that cut preparation from 10+ hours to under an hour. I'm now doing a Master's in
 Computing and Informatics at Multimedia University and **open to AI engineering roles**.
 
 ### Featured project
