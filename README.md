@@ -1,32 +1,60 @@
-### Hi, I'm Mohamed
+<img src="assets/banner.svg" alt="Mohamed Mahdi, AI Engineer" width="100%" />
 
-I'm an AI engineer. I build AI agents that are measured, controlled and safe to put in front of
-real decisions: durable execution, tool permissions, human approval, traces, and evaluations that
-tell you whether the system actually works.
+<p>
+  <a href="https://mohamedmahdics.github.io"><img src="https://img.shields.io/badge/Portfolio-mohamedmahdics.github.io-7c6cff?style=flat-square" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/mohamedmahdi-cs/"><img src="https://img.shields.io/badge/LinkedIn-mohamedmahdi--cs-0a66c2?style=flat-square" alt="LinkedIn" /></a>
+  <a href="mailto:mohamedmahdioy@gmail.com"><img src="https://img.shields.io/badge/Email-mohamedmahdioy%40gmail.com-1f2937?style=flat-square" alt="Email" /></a>
+</p>
 
-**Python · FastAPI · PostgreSQL · LLM agents · evaluation · React + TypeScript**
+I'm an AI engineer in Kuala Lumpur. I build AI systems that are reliable, measurable and safe to
+put in front of real decisions: policy enforced in the backend rather than the prompt, evaluations
+tied to recorded evidence, and systems that fail safely.
 
----
+Previously I spent two years building LLM-powered features for a school wellbeing platform, used
+by 3 schools, that cut report preparation from 10+ hours to under an hour. I'm now doing a Master's in
+Computing and Informatics at Multimedia University and **open to AI engineering roles**.
 
-#### [AgentOps Control Plane](https://github.com/MohamedMahdiCS/agentops-control-plane)
+### Featured project
 
-A control plane for running AI agents with production controls, and for proving how they behave.
+<table>
+<tr>
+<td width="52%" valign="top">
 
-- **Durable runs** that survive worker crashes (PostgreSQL queue with leases and fencing)
-- **Policy gateway** on every tool call, with human approval for sensitive actions
-- **Deterministic evaluations**: 0–100 scores where every check cites recorded evidence, and a
-  safety gate that a high score can't override
-- **Reproducible benchmarks**: scenario suites with replay, regression detection and release
-  gates that run in CI
+**[AgentOps Control Plane](https://github.com/MohamedMahdiCS/agentops-control-plane)**
 
-FastAPI · PostgreSQL · React · Three.js · Docker · GitHub Actions · 230 tests
+Run, govern and evaluate AI agents with every number backed by recorded evidence.
 
-#### Coming soon: an open-source AI claims adjuster
+- Default-deny tool gateway with action-scoped human approvals
+- Crash-safe runs on a PostgreSQL queue with leases and fencing
+- Deterministic 0–100 grading, replayable benchmarks and CI release gates
+- React and Three.js operator console
 
-An agent that reads messy insurance claim documents (phone photos, scans, English, Malay and
-Chinese), catches forged receipts, ignores instructions hidden in documents, and runs fully on a
-laptop. Plus the public benchmark I built to measure it.
+[Live demo](https://mohamedmahdics.github.io/agentops-control-plane/) ·
+[Case study](https://mohamedmahdics.github.io/agentops/) ·
+[Code](https://github.com/MohamedMahdiCS/agentops-control-plane)
 
----
+</td>
+<td width="48%" valign="top">
+<a href="https://mohamedmahdics.github.io/agentops-control-plane/"><img src="assets/agentops.webp" alt="AgentOps console overview" /></a>
+</td>
+</tr>
+</table>
 
-Open to AI engineering roles.
+**In progress:** an evidence-first AI claims adjuster that reads messy insurance documents in
+English, Malay and Chinese, resists tampering and prompt injection, and runs fully on a laptop with
+open models, along with a public benchmark to measure it.
+
+### Toolbox
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+</p>
+
+LLM applications · AI agents · model evaluation · guardrails · human-in-the-loop · system design
